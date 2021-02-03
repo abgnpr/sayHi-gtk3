@@ -4,7 +4,7 @@ static void
 print_entry(GtkWidget* widget, gpointer data)
 {
     gchar* text = gtk_entry_get_text(GTK_ENTRY(data));
-    g_print("%s\n", text);
+    g_print("Hi %s\n", text);
 }
 
 int main(int argc, char* argv[])
